@@ -1,0 +1,63 @@
+body {
+    background-color: #212121;
+}
+
+.Popup {
+    background-color: rgb(104, 97, 84);
+    height: 300px;
+    width: 500px;
+    border-radius: 8px;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    box-shadow: 7px 8px 13px 0px #bcbcbc;
+    /* display: none; */
+    transform: scale(0);
+    transition: all 0.15s ease-in;
+}
+
+.parent-open .Popup {
+    /* display: block; */
+    transform: scale(1);
+}
+.overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(255, 0, 242, 0.1);
+}
+.parent-open .overlay{
+    display: block;
+}
+button {
+    display: block;
+    margin: auto;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: monospace;
+}
+
+.close {
+    font-size: 48px;
+    position: absolute;
+    right: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    color: antiquewhite;
+    font-family: monospace;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    color: antiquewhite;
+    font-family: monospace;
+}

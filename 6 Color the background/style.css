@@ -1,0 +1,59 @@
+html {
+  margin: 0;
+}
+
+nav a{
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+
+body{
+  background-color: #212121;
+  color: #fff;
+  height: 90vh;
+}
+
+span {
+  display: block;
+}
+
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#palevioletred {
+  background: palevioletred;
+}
+
+#blue {
+  background: blue;
+}
+
+#green {
+  background: green;
+}
+
+#peru{
+  background-color: peru;
+}
+
+#royalblue{
+  background-color: royalblue;
+}
