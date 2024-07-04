@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #13123f;
+    color: white;
+    text-align: center;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: inherit;
+    height: 40px;
+    width: 80px;
+    margin-bottom: 18px;
+}
+button{
+    background-color: rgb(235, 235, 3);
+    padding: 16px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(218, 218, 1);
+}
