@@ -6,7 +6,8 @@ const userGuesses = document.querySelector('.guesses')
 const submitBtn = document.querySelector('.submit-btn')
 const startGameBtn = document.querySelector('.start-game-btn')
 const randomNumber = Math.round(Math.random() * 100)
-console.log(randomNumber);
+
+const previousGuesses = []
 
 submitButton.addEventListener('click', (e) => {
     e.preventDefault()
@@ -21,7 +22,8 @@ submitButton.addEventListener('click', (e) => {
         startGameBtn.disabled = false;
         submitBtn.disabled = true;
     }
-    // yourGuesses.innerText = 'Your guesses: '
-    // userGuesses.innerText = userValue
-
+    inputBox.value = ''
+    previousGuesses.push(userValue)
+    console.log(previousGuesses);
+    yourGuesses.innerText = 'Your guesses: ' + previousGuesses.join(', ')
 })
