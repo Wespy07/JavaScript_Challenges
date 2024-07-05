@@ -54,3 +54,34 @@ input.addEventListener('input', () => {
     kebabCaseField.innerText = toKebabCase(input.value)
     trimCaseField.innerText = toTrimCase(input.value)
 })
+
+
+// -----------------------------------------------------------------------------
+// for (var i = 1; i <= 3; i++) {
+//     setTimeout(() => {
+//         console.log(i);
+//     }, 0);
+// }
+// for (let i = 1; i <= 3; i++) {
+//     setTimeout(() => {
+//         console.log(i);
+//     }, 0);
+// }
+// -----------------------------------------------------------------------------
+// console.log(x); 
+// var x = 5
+// -----------------------------------------------------------------------------
+// function myFunc() {
+//     console.log('this is my function');
+//     var k = 45
+// }
+// console.log(k);
+// myFunc()
+// -----------------------------------------------------------------------------
+// let k = 97          
+// if (true) {           
+//     k = 98  // let k = 98 to declare a new block scope for same variable name 
+//     console.log(k);
+// }
+// console.log(k);
+// -----------------------------------------------------------------------------
