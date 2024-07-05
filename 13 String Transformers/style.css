@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #13123f;
+    color: white;
+    text-align: left;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    margin-top: 34px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+input::placeholder {
+    font-size: inherit;
+    border-radius: 4px;
+}
+
+fieldset {
+    margin-top: 24px;
+    background-color: rgba(127, 255, 212, 0.425);
+    padding: 6px 16px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+legend{
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 2px 6px;
+    background-color: aqua;
+    color: black;
+    font-weight: 600;
+}
