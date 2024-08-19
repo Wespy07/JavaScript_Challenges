@@ -3,7 +3,7 @@
 Some javascript side projects and challenges along with web-components to put my JS skills into practice.
 
 ### 1.) Faulty Calculator
-Create a faulty calculator that will perfrom correct operations 80% of the time but the remaining 20% it will performt the following operations 
+Create a faulty calculator that will perform correct operations 80% of the time but for the remaining 20% it will perform the following operations 
 
     + = *
     - = /
