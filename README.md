@@ -23,3 +23,5 @@ Create a business name generator by combining one word from each of the list:
 ### 5.) Dynamically Color the Boxes
 #
 ### 6.) Color the Background
+#
+### 7.) Modal - Web Component
